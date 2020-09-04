@@ -1,7 +1,5 @@
 <resources>
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">#434343</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -14,4 +12,9 @@
 <style name="tabText" parent="TextAppearance.Design.Tab">
     <item name="textAllCaps">false</item>
 </style>
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/grey_black</item>
+        <item name="android:background">@drawable/bg_submit_3</item>
+    </style>
 </resources>

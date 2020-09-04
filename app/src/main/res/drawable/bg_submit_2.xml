@@ -10,7 +10,7 @@
     </item>
     <item android:state_focused="true" android:state_pressed="true">
         <shape android:shape="rectangle" >
-            <gradient android:startColor="@color/white" android:centerColor="@color/colorAccent" android:endColor="@color/colorAccent" android:angle="45"/>
+            <gradient android:startColor="@color/grey_black" android:centerColor="@color/grey_black" android:endColor="@color/grey_black" android:angle="45"/>
             <corners android:radius="@dimen/cornerradius_2"/>
         </shape>
     </item>
@@ -22,7 +22,7 @@
     </item>
     <item android:state_focused="false" android:state_pressed="true">
         <shape android:shape="rectangle" >
-            <gradient android:startColor="@color/white" android:centerColor="@color/colorAccent" android:endColor="@color/colorAccent" android:angle="45"/>
+            <gradient android:startColor="@color/grey_black" android:centerColor="@color/grey_black" android:endColor="@color/grey_black" android:angle="45"/>
             <corners android:radius="@dimen/cornerradius_2"/>
         </shape>
     </item>

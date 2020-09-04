@@ -23,7 +23,10 @@
             />
         <activity android:name=".ProjectSubmissionActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-/>
+            android:parentActivityName=".LeaderBoardActivity"
+><meta-data
+            android:name="parentActivityName" android:value=".LeaderBoardActivity"/>
+        </activity>
     </application>
 
 </manifest>
